@@ -1,7 +1,7 @@
 # Simulation-of-a-Reinforcement-Learning-based-agent-Map-solving-problem
 Simulation using the lua programming language and the LOVE2D engine of a Reinforcement Learning based agent – Map solving problem
 
-##Description
+## Description
 
 This project is a maze solving problem. The aim is to implement an agent that can find an optimal set of actions that can be followed to get to our desired destination in the maze.
 We have a maze, similar to the grid world example in Russel and Norvig book. [1] We have blocks in the maze –the states, we have a set of actions available from each state – up, down, left, right, etc., and we have end blocks (states) where the only action is to exit the map. The exit states might be our desired exit state or an undesired one. 
@@ -14,7 +14,7 @@ The conditions are as follows:
 
 To summarize, we have an undiscovered maze and a desired destination in the maze that we want to reach – our input. We need an agent that can find a way to our destination and give us a map that can be followed to get to our destination most optimally – our output. 
 
-##How to run the Simulation
+## How to run the Simulation
 
 1. Clone the repository.
 2. Make sure all the files are in one folder.
